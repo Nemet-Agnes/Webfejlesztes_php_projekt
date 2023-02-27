@@ -1,0 +1,39 @@
+Array
+(
+    [0] => Array
+        (
+            [0] => katika@gmail.com
+            [1] => katica85
+        )
+
+    [1] => Array
+        (
+            [0] => arpi40@freemail.hu
+            [1] => polip
+        )
+
+    [2] => Array
+        (
+            [0] => zsanettka@hotmail.com
+            [1] => csillag12
+        )
+
+    [3] => Array
+        (
+            [0] => hatizsak@protonmail.com
+            [1] => tracking
+        )
+
+    [4] => Array
+        (
+            [0] => terpeszterez@citromail.hu
+            [1] => cukorka
+        )
+
+    [5] => Array
+        (
+            [0] => nagysanyi@gmail.hu
+            [1] => julcsika
+        )
+
+)
