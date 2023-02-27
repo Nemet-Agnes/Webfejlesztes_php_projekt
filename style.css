@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans";
+    color:white;
+}
+section{
+    position:relative;
+    height:100vh;
+    width:100%;
+    background: url("files/hatter.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.form-container{
+    position: absolute;
+    top: 51%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.788);
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom:2em;
+}
+.control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color:#222;
+    border:none;
+    outline:none;
+    margin: 1em 0;
+}
+.control input[type="submit"]{
+    background : rgb(100, 24, 24);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: .9;
+    transition: opacity .5s ease;
+}
+.control input[type="submit"]:hover{
+    opacity:1;
+}
+.link{
+    text-align: center;
+}
+.link a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.link :hover{
+    opacity:1;
+}
+#result{
+    text-align: center;
+    margin-top: 10px;
+}
